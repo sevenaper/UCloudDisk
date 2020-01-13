@@ -1,0 +1,100 @@
+
+.ant-carousel .slick-slide {
+    position: relative;
+    text-align: center;
+    height: 601px;
+    line-height: 160px;
+    /*background: #364d79;*/
+    overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+}
+
+.picWrapper1 {
+    background: url("../../statics/bg1.jpg");
+    display: block;
+    width: 1064px;
+    height: 601px;
+}
+
+.picWrapper2 {
+    background: url("../../statics/bg2.jpg");
+    display: block;
+    width: 1064px;
+    height: 601px;
+}
+
+.picWrapper3 {
+    background: url("../../statics/bg3.jpg");
+    display: block;
+    width: 1064px;
+    height: 601px;
+}
+
+.picWrapper4 {
+    background: url("../../statics/bg4.jpg");
+    display: block;
+    width: 1064px;
+    height: 601px;
+}
+
+#login-download {
+    position: relative;
+    font-family: "iconfont", serif !important;
+    text-align: center;
+    display: flex;
+    clear: both;
+    width: 750px;
+    height: 110px;
+    margin: 30px auto;
+}
+
+#windows {
+    flex: 1;
+    align-content: center;
+}
+
+#windows:hover {
+
+}
+
+#mac {
+    flex: 1;
+    align-content: center;
+}
+
+#ios {
+    flex: 1;
+    align-content: center;
+}
+
+#android {
+    flex: 1;
+    align-content: center;
+}
+
+.loginFormWrapper {
+    font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 4;
+    color: rgba(0, 0, 0, 0.65);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute !important;
+    left: 780px !important;
+    top: 100px !important;
+    /* float: left; */
+    z-index: 444 !important;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    border-radius: 10px;
+    padding: 30px;
+    width: 370px;
+    height: 400px;
+
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.7);
+}
