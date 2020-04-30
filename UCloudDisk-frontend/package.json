@@ -35,7 +35,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.5.0"
   },
   "proxy": "http://97.64.31.124/",
   "browserslist": [
